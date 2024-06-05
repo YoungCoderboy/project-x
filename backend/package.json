@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "This is an api backend build for project-x",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "author": "deep , athang , prathamesh , om",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
