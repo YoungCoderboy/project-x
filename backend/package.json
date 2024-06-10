@@ -4,11 +4,20 @@
   "description": "This is an api backend build for project-x",
   "main": "server.js",
   "scripts": {
-    "test": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "author": "deep , athang , prathamesh , om",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.4",
+    "validator": "^13.12.0"
   }
 }
